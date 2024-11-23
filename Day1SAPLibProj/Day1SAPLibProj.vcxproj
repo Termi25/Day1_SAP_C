@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Downloads\ex30_MD5.cpp" />
     <ClCompile Include="ex31_SHA1.cpp" />
+    <ClCompile Include="ex32_SHA1_fromFile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

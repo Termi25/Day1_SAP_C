@@ -21,5 +21,8 @@
     <ClCompile Include="ex31_SHA1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex32_SHA1_fromFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
