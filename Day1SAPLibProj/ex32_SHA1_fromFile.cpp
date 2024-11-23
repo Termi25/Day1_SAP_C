@@ -12,10 +12,6 @@ int main() {
 	if (err == 0) {
 		SHA_CTX ctx;
 		SHA1_Init(&ctx);
-
-		fseek(inputFile, 0, SEEK_END);
-		int fileLen = ftell(inputFile);
-		fseek(inputFile, 0, SEEK_SET);
 		
 		unsigned char* input = (unsigned char*)malloc(INPUT_BLOCK_LENGTH);
 		
